@@ -7,6 +7,7 @@ from bs4 import BeautifulSoup
 inp_year=input("Enter the year")
 custom_url="https://www.imdb.com/search/title/?title_type=feature&release_date="+str(inp_year)+"-01-01,"+str(inp_year)+"-12-31&countries=us"
 
+desc=[]
 names=[] 
 runtime=[]
 genre=[]
@@ -14,7 +15,7 @@ director=[]
 cast=[]
 rating=[]
 metascore=[]
-desc=[]
+
 
 page=urlopen(custom_url)
 html=(page.read()).decode("utf-8")
