@@ -1,4 +1,9 @@
-# imDb-top250-Web-Scrapper
+# IMdB-Top50-Movies
 
-Web scrapper using Python,BeautifulSoup and requests module to scrape the top 250 imDb movies by ranking and create csv 
-file with name,year,director,cast and user rating of each movie
+This python script is used to scrape the list of Top 50 movies from the year of your choice.
+
+# Tools Used
+1.Python3
+2.BeautifulSoup
+3.requests odule
+
